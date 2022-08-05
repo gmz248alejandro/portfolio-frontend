@@ -1,0 +1,16 @@
+* {
+    justify-content: center;
+}
+
+html {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+
+#testdiv {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 30%;
+}
