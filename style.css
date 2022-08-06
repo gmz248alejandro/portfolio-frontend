@@ -1,11 +1,8 @@
-* {
-    justify-content: center;
-}
-
 html {
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aquamarine;
+    justify-content: center;
 }
 
 #testdiv {
