@@ -1,13 +1,12 @@
-html {
-    background-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aquamarine;
-    justify-content: center;
+* {
+    margin: 5px;
 }
 
-#testdiv {
-    background-color: red;
-    color: white;
-    display: inline-block;
-    border-radius: 30%;
+header {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+nav {
+    background-color: lightblue;
 }
