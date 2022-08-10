@@ -1,12 +1,21 @@
 * {
     margin: 5px;
+    color: #00b8e6;
+}
+
+html {
+    background-color: #003d4d;
 }
 
 header {
-    background-color: greenyellow;
+    background-color: #006680;
     text-align: center;
+    border-radius: 20px;
+    border-style: dotted;
 }
 
 nav {
-    background-color: lightblue;
+    background-color: #006680;
+    border-radius: 20px;
+    border-style: dotted;
 }
