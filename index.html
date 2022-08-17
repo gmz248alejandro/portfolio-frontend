@@ -4,56 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Bootstrap test</title>
 </head>
 <body>
-        <main class="container">
-        <div class="row d-flex vh-100 align-content-center">
-            <div class="col-12 border col-md-6 col-lg-9">
-                <div class="row">
-                    <div class="col-12 border col-lg-7">
-                        <div class="card bg-danger">
-                            <div class="card-body">
-                              PRIMERA TARJETA Lorem ipsum dolor sit amet consectetur adipisicing elit. A, accusamus quia odit aut neque incidunt vero est? Laboriosam dolor, qui accusantium sit fuga debitis amet quia velit ex rem dignissimos?
-                            </div>
-                          </div>
-                    </div>    
-                    <div class="col-12 border col-lg-5">
-                      <div class="card bg-success">
-                        <div class="card-body">
-                          SEGUNDA TARJETA Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis nisi praesentium blanditiis exercitationem dolorem at molestias ut vel porro earum iure dolorum dolore quo autem magni repudiandae, deleniti quasi. Minima!
-                        </div>
-                      </div>
-                    </div>
+  <main class="container">
+    <div class="row d-flex vh-100 align-content-center">
+      <!--4 tarjetas izquierdas-->
+      <div class="col-12 border col-md-6 col-lg-9">
+        <div class="row">
+          <div class="col-12 border col-lg-7">
+            <div class="card bg-dark text-white">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="fortnite.webp" alt="Fortnite Logo" class="border border-3 border-white rounded-circle" id="img-size">
+                  <div class="ps-2 pt-2">
+                    <h5 class="m-0">Fortnite</h5>
+                    <h6 class="m-0 text-white-50">Todas las plataformas</h6>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 border col-lg-5">
-                        <div class="card bg-info">
-                            <div class="card-body">
-                              TERCERA TARJETA Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae quam exercitationem inventore dolor labore ut dolores dolore voluptas corporis debitis, officia accusamus temporibus, deserunt, magni vel similique! Deserunt, accusamus!
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 border col-lg-7">
-                        <div class="card bg-warning">
-                            <div class="card-body">
-                              CUARTA TARJETA Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod iste repellat illum facilis consequatur, provident debitis ipsa aut magni labore, tempora perspiciatis modi pariatur, veniam mollitia assumenda repudiandae quos dolore.
-                            </div>
-                          </div>
-                    </div>
-                </div>
+                <div><p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo soluta repellendus quod reiciendis, perspiciatis iste rerum amet aperiam vitae voluptatibus, in, laborum unde veritatis laudantium sint eum iure! Quod, sit.</p></div>
+              </div>
             </div>
+          </div>
 
-            <div class="col-12 border col-md-6 col-lg-3 d-flex">
-                <div class="card bg-primary">
-                    <img src="https://as01.epimg.net/meristation/imagenes/2018/07/19/header_image/321033641532015367.jpg" alt="Fortnite" class="img-fluid border border-4 border-dark rounded-pill">
-                    <div class="card-body">
-                      TARJETA DE ASIDE Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet autem ratione maxime perferendis praesentium ullam alias est amet obcaecati deserunt veniam nam hic nobis quod fugiat odio consectetur, dolore cupiditate?
+          <div class="col-12 border col-lg-5">
+            <div class="card bg-primary text-white">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="clash-royale.png" alt="Clash Royale Logo" class="border border-3 border-white rounded-circle" id="img-size">
+                  <div class="ps-2 pt-2">
+                    <h5 class="m-0">Clash Royale</h5>
+                    <h6 class="m-0 text-white-50">iOS y Android</h6>
+                  </div>
+                </div>
+                <div><p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo soluta repellendus quod reiciendis, perspiciatis iste rerum amet aperiam vitae voluptatibus, in, laborum unde veritatis laudantium sint eum iure! Quod, sit.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 border col-lg-5">
+            <div>
+              <div class="card bg-success text-white">
+                <div class="card-body">
+                  <div class="d-flex">
+                    <img src="sea-of-thieves.jpg" alt="Sea of Thieves Logo" class="border border-3 border-white rounded-circle" id="img-size">
+                    <div class="ps-2 pt-2">
+                      <h5 class="m-0">Sea of Thieves</h5>
+                      <h6 class="m-0 text-white-50">Xbox y PC</h6>
                     </div>
                   </div>
+                  <div><p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo soluta repellendus quod reiciendis, perspiciatis iste rerum amet aperiam vitae voluptatibus, in, laborum unde veritatis laudantium sint eum iure! Quod, sit.</p></div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="col-12 border col-lg-7">
+            <div class="card bg-secondary text-white">
+              <div class="card-body">
+                <div class="d-flex">
+                  <img src="csgo.webp" alt="CSGO Logo" class="border border-3 border-white rounded-circle" id="img-size">
+                  <div class="ps-2 pt-2">
+                    <h5 class="m-0">CSGO</h5>
+                    <h6 class="m-0 text-white-50">Steam</h6>
+                  </div>
+                </div>
+                <div><p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo soluta repellendus quod reiciendis, perspiciatis iste rerum amet aperiam vitae voluptatibus, in, laborum unde veritatis laudantium sint eum iure! Quod, sit.</p></div>
+              </div>
+            </div>
+          </div>
         </div>
-        </main>
+      </div>
+
+      <!--Aside-->
+      <div class="col-12 border col-md-6 col-lg-3"> TARJETA DE ASIDE Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod ea id sint, doloribus delectus eius nesciunt at. Maiores at beatae sunt quae voluptatem perspiciatis molestias asperiores. Quasi laboriosam quisquam tempora!</div>
+    </div>
+  </main>
 </body>
 </html>
        
