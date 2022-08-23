@@ -6,6 +6,12 @@
 
 html {
     background-color: #003d4d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 header {
@@ -13,12 +19,20 @@ header {
     text-align: center;
     border-radius: 20px;
     border-style: dotted;
+    width: 30rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
 }
 
 nav {
     background-color: #006680;
     border-radius: 20px;
     border-style: dotted;
+    display: flex;
+    justify-content: space-around;
 }
 
 .bc-lightblue {
@@ -27,4 +41,12 @@ nav {
     border-style: dotted;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.main-container-flex {
+    display: flex;
+}
+
+aside {
+    margin-left: 3rem;
 }
