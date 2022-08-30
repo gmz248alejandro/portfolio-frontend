@@ -3,6 +3,27 @@
     height: 3rem;
 }
 
-#banner-text {
-    font-family: 'Patua One', cursive;
+#fb-icon {
+    width: 2rem;
+    height: 2rem;
 }
+
+#ig-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+#name-in-banner {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+#subtittle-in-banner {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*
+#text-in-banner {
+    
+}
+*/
