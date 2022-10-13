@@ -3,12 +3,21 @@
     height: 3rem;
 }
 
-#fb-icon {
+.navbar-icon {
     width: 2rem;
     height: 2rem;
 }
 
-#ig-icon {
-    width: 2rem;
-    height: 2rem;
+/*
+@media handheld, only screen and (max-width: 576px) {
+    .navbar-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    }
+}*/
+
+@media handheld, only screen and (max-width: 576px) {
+    .icons-to-hide {
+    display: none;
+    }
 }

@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContainerComponent } from './components/container/container.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BannerComponent } from './components/banner/banner.component';
+import { SpacerComponent } from './components/spacer/spacer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ContainerComponent,
+    BannerComponent,
+    SpacerComponent,
   ],
   imports: [
     BrowserModule,
