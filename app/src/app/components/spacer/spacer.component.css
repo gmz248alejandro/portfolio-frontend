@@ -1,6 +1,7 @@
 .spacer {
-    background-color: black;
-    height: 70px;
-    border-top: solid 5px #A832CA;
-    border-bottom: solid 5px #A832CA;
+    position: absolute;
+    background-color: #A832CA;
+    width: 100%;
+    height: 5px;
+    box-shadow: 0 -5px 10px #A832CA;
 }

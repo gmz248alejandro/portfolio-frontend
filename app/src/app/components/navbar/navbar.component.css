@@ -1,6 +1,14 @@
+#navbar {
+    border-bottom: solid 5px #FFFB00;
+}
+
 #navbar-image {
     width: 3rem;
     height: 3rem;
+}
+
+.navbar-title {
+    color: #FFFB00;
 }
 
 .navbar-icon {
@@ -20,4 +28,15 @@
     .icons-to-hide {
     display: none;
     }
+}
+
+.btn {
+    color: #FFFB00;
+    border-color: #FFFB00;
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    background-color: #FFFB00;
+    color: black;
 }
