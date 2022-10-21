@@ -8,7 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BannerComponent } from './components/banner/banner.component';
 import { SpacerComponent } from './components/spacer/spacer.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
-import { ProjectsComponent } from './components/projects/projects.component';
+import { LinesBgComponent } from './components/lines-bg/lines-bg.component';
+import { ExpComponent } from './components/exp/exp.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     BannerComponent,
     SpacerComponent,
     AboutMeComponent,
-    ProjectsComponent,
+    LinesBgComponent,
+    ExpComponent,
   ],
   imports: [
     BrowserModule,
