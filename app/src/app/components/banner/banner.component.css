@@ -34,15 +34,6 @@
     animation: 2s ease infinite alternate retrobg-sun-glow-anim;
 }
 
-.retrobg-shutdown #retrobg-sun {
-    background-image: linear-gradient( #000, #000 40% );
-    --glow-color: #000;
-  }
-  @keyframes retrobg-sun-glow-anim {
-    from { box-shadow: 0 0 160px 80px var( --glow-color ); }
-    to   { box-shadow: 0 0 200px 95px var( --glow-color ); }
-  }
-  
 /* ............................................................... */
 #retrobg-stars {
     position: absolute;
@@ -120,10 +111,6 @@
     border-top: 2px solid #bf578c;
     background-color: #000;
 }
-  
-.retrobg-shutdown #retrobg-ground {
-    border-color: #000;
-}
 
 #retrobg-groundShadow {
     position: absolute;
@@ -146,10 +133,6 @@
     height: 100%;
     transform-origin: top center;
     animation: .35s linear infinite retrobg-lines-anim;
-}
-
-.retrobg-shutdown #retrobg-lines {
-    animation-duration: 5s;
 }
 
 @keyframes retrobg-lines-anim {

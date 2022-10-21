@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BannerComponent } from './components/banner/banner.component';
 import { SpacerComponent } from './components/spacer/spacer.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     BannerComponent,
     SpacerComponent,
     AboutMeComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,72 @@
+#retrobg {
+    position: relative;
+    overflow: hidden;
+    height: 415.34px;
+    color: #aa33cc;
+    background-color: #000;
+}
+
+  
+  /* ............................................................... */
+#retrobg-ground {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    border-top: 5px solid #aa33cc;
+    background-color: #000;
+}
+
+#retrobg-groundShadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( #000 0%, transparent );
+}
+  
+/* ............................................................... */
+#retrobg-linesWrap {
+    height: 100%;
+    perspective: 1000px;
+    perspective-origin: center top;
+}
+
+#retrobg-lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: top center;
+    animation: .35s linear infinite retrobg-lines-anim;
+}
+
+@keyframes retrobg-lines-anim {
+    from { transform: rotateX( 84deg ) translateY( 0 ); }
+    to { transform: rotateX( 84deg ) translateY( 100px ); }
+}
+
+#retrobg-hlines,
+#retrobg-vlines {
+    position: absolute;
+    left: calc( ( 900% - 100% ) / -2 );
+    width: 900%;
+    height: 500%;
+}
+
+#retrobg-vlines {
+    display: flex;
+    justify-content: center;
+}
+  
+.retrobg-hline,
+.retrobg-vline {
+    width: 100%;
+    height: 100%;
+    background-color: currentColor;
+}
+  
+.retrobg-hline { height: 3px; }
+.retrobg-vline { width: 3px; }
+.retrobg-hline + .retrobg-hline { margin-top: 98px; }
+.retrobg-vline + .retrobg-vline { margin-left: 48px; }
