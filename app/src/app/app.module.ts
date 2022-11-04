@@ -10,6 +10,9 @@ import { SpacerComponent } from './components/spacer/spacer.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { LinesBgComponent } from './components/lines-bg/lines-bg.component';
 import { ExpComponent } from './components/exp/exp.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { ExpComponent } from './components/exp/exp.component';
     AboutMeComponent,
     LinesBgComponent,
     ExpComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

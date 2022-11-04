@@ -11,6 +11,10 @@
     color: #FFFB00;
 }
 
+.navbar-title:hover {
+    cursor: default;
+}
+
 .navbar-icon {
     width: 2rem;
     height: 2rem;
