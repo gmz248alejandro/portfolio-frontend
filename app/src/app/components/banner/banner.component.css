@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     height: 100vh;
-    color: #a3c;
+    color: #979efa;
     background-color: #000;
 }
   
@@ -15,7 +15,7 @@
     top: 0;
     width: 100%;
     height: 55%;
-    background: linear-gradient( #214 75%, #249 );
+    background: linear-gradient( #21294a 75%, #555ea7 );
 }
   
   /* ............................................................... */
@@ -23,15 +23,6 @@
     position: relative;
     width: 40%;
     margin-bottom: -15%;
-}
-
-#retrobg-sun {
-    --glow-color: #d44;
-    padding-top: 100%;
-    border-radius: 50%;
-    background-image: linear-gradient( #FFFB00, #ff623f, #fe2085 50% );
-    box-shadow: 0 0 160px 80px var( --glow-color );
-    animation: 2s ease infinite alternate retrobg-sun-glow-anim;
 }
 
 /* ............................................................... */
@@ -108,7 +99,7 @@
     width: 100%;
     height: 45%;
     bottom: 0;
-    border-top: 2px solid #bf578c;
+    border-top: 2px solid #555ea7;
     background-color: #000;
 }
 
@@ -166,7 +157,6 @@
 .retrobg-vline + .retrobg-vline { margin-left: 48px; }
 
 .banner-imgs {
-  padding-top: 50px;
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -174,13 +164,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  bottom: 50px;
 }
 
 #tiger-tony {
   width: 20rem;
   height: 20rem;
   position: relative;
-  top: 150px;
+  top: 200px;
 
   -moz-transform: rotate(6deg);
   -webkit-transform: rotate(6deg);
