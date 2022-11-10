@@ -1,0 +1,47 @@
+#navbar {
+    border-bottom: solid 5px #979EFA;
+    background-color: #140F07;
+}
+
+#navbar-image {
+    width: 3rem;
+    height: 3rem;
+}
+
+.navbar-title {
+    color: #979EFA;
+}
+
+.navbar-title:hover {
+    cursor: default;
+}
+
+.navbar-icon {
+    width: 2rem;
+    height: 2rem;  
+}
+
+/*
+@media handheld, only screen and (max-width: 576px) {
+    .navbar-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    }
+}*/
+
+@media handheld, only screen and (max-width: 576px) {
+    .icons-to-hide {
+    display: none;
+    }
+}
+
+.btn {
+    color: #979EFA;
+    border-color: #979EFA;
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    background-color: #979EFA;
+    color: #140F07;
+}
